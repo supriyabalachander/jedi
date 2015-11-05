@@ -3,7 +3,7 @@ Rails.application.routes.draw do
   resources :lights
   resources :users
 
-root '/' => 'users#index'
+root 'users#index'
 
 get '/sign_in' => 'users#new'
 
