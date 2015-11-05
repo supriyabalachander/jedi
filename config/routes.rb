@@ -2,8 +2,10 @@ Rails.application.routes.draw do
   resources :darks
   resources :lights
   resources :users
+  resources :questions
 
-root '/' => 'users#index'
+
+root 'users#index'
 
 get '/sign_in' => 'users#new'
 
