@@ -6,8 +6,21 @@
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
 
   <%= csrf_meta_tags %>
+
+  <style>
+    #player-score{
+      position: relative;
+      font-size: 30px;
+      left: 83%;
+      bottom: 85%;
+    }
+  </style>
 </head>
 <body>
+
+<div id="player-score">
+  Score: <span id="score-text">0</span>
+</div>
 
 <%= yield %>
 
