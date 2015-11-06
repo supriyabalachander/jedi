@@ -1,31 +1,11 @@
 <p id="notice"><%= notice %></p>
-
-<h1>Listing Users</h1>
-
-<table>
-  <thead>
-    <tr>
-      <th>Light/dark</th>
-      <th>Username</th>
-      <th>Current score</th>
-      <th colspan="3"></th>
-    </tr>
-  </thead>
-
-  <tbody>
-    <% @users.each do |user| %>
-      <tr>
-        <td><%= user.light/dark %></td>
-        <td><%= user.username %></td>
-        <td><%= user.current_score %></td>
-        <td><%= link_to 'Show', user %></td>
-        <td><%= link_to 'Edit', edit_user_path(user) %></td>
-        <td><%= link_to 'Destroy', user, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
-    <% end %>
-  </tbody>
-</table>
-
+<div class="quiz-awakens">
+<%= image_tag ("the_force_awakens.png"), class: 'logo' %>
+</div>
 <br>
 
-<%= link_to 'New User', new_user_path %>
+<div class="choice">
+<h3>Choose your path...<h3>
+<button type="button" class="path"><a class="path" href="/users/new"><%= image_tag ("rebel_alliance.png"), class: 'alliance' %></a></button>
+<button type="button" class="path"><a class="path" href="/users/new"><%= image_tag ("empire.png"), class: 'alliance' %></a></button>
+</div>

@@ -13,3 +13,39 @@
  *= require_tree .
  *= require_self
  */
+
+body {
+  background-image: url(/assets/stars-carousel.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+.quiz-awakens {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.logo {
+  height: 45vh;
+}
+
+.path {
+  background: none;
+  border-radius: 50%;
+  outline: inherit;
+  outline-color: invert;
+}
+
+
+
+.choice {
+  font-family: StarJedi;
+  font-size: 3em;
+  color: #E6AF4F;
+  text-shadow: 5px 5px 5px black;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.alliance {
+  height: 25vh;
+}
