@@ -8,12 +8,12 @@
 // compiled file.
 //
 // Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
-// about supported directives.
+// about suprported directives.
 //
 //= require jquery
 //= require jquery_ujs
 //= require_tree .
-
+console.log('application.js linked');
 $(document).ready(function(){
 var myArray = [1,2,3];
 var rand = myArray[Math.floor(Math.random() * myArray.length+1)];
