@@ -41,14 +41,9 @@ class QuestionsController < ApplicationController
     puts num3
     # num4 = rand(1..87).to_s
     @answer = HTTParty.get('http://swapi.co/api/planets/' + num1)
-    puts @answer
     @answer2 = HTTParty.get('http://swapi.co/api/planets/' + num2)
     @answer3 = HTTParty.get('http://swapi.co/api/planets/' + num3)
     # @answer4 = HTTParty.get('http://swapi.co/api/people/' + num4)
 
   end
-
-def show
-end
-
 end

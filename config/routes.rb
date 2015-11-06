@@ -1,8 +1,4 @@
 Rails.application.routes.draw do
-  resources :darks
-  resources :lights
-  resources :users
-  resources :questions
 
 
 root 'welcomes#index'
