@@ -1,9 +1,10 @@
-== README
+==The Quiz Awakens
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+The Quiz Awakens is only the most awesome of all the Star Wars Trivia Games. 
 
-Things you may want to cover:
+http://media3.giphy.com/media/2os1l88JyaWEU/giphy.gif
+
+==Technology 
 
 * Ruby version
 
@@ -22,6 +23,10 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+=====Star Wars API
+
+==Screen Shots
 
 
 Please feel free to use a different markup language if you do not plan to run
