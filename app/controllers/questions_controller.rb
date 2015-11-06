@@ -1,13 +1,6 @@
 class QuestionsController < ApplicationController
 
 
-
-
-    def show
-      redirect_to root_path
-    end
-
-
     # takes random number from range indicated on API documentation and concatenates to end of api call belo
     def people
 
