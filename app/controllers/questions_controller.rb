@@ -3,7 +3,6 @@ class QuestionsController < ApplicationController
 
     # takes random number from range indicated on API documentation and concatenates to end of api call belo
     def people
-
       num1 = rand(1..87).to_s
       num2 = rand(1..87).to_s
       puts num2

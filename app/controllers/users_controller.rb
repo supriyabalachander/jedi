@@ -14,7 +14,11 @@ class UsersController < ApplicationController
     end
 
   def create
-    user = User.create(user)
+    puts params
+    # Parameters: {"username"=>"hello", "light_dark"=>"false"}
+    user = User.create({username: params[:username], light_dark: params[:light_dark]})
+    puts user
+    redirect_to "/questions/people"
   end
 
 

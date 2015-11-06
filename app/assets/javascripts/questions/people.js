@@ -9,6 +9,10 @@ $(document).ready(function(){
       if (answerDivs[i] == event.target){
         alert("WAY TO GO JEDI! Now head to the cantina and grab yourself a cocktail.");
         console.log('yessssssir')
+
+        
+
+
       }
     }
 
