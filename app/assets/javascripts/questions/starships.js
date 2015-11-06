@@ -12,10 +12,10 @@ $("#show-question").click(function(){
   $(".question-container").append(questionOne);
 })
 
-var myArray = [1,2,3];
-var rand = myArray[Math.floor(Math.random() * myArray.length)];
-console.log(rand);
-$(".question"+rand).toggle();
+// var myArray = [1,2,3];
+// var rand = myArray[Math.floor(Math.random() * myArray.length)];
+// console.log(rand);
+// $(".question"+rand).toggle();
 
 
 
