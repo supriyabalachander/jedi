@@ -7,6 +7,7 @@ Rails.application.routes.draw do
 root 'users#index'
 
 get '/sign_in' => 'users#new'
+get '/users/login' => 'users#login'
 
 get '/questions' => 'questions#index'
 

@@ -26,7 +26,8 @@ body {
 }
 
 .logo {
-  height: 45vh;
+  height: 40vh;
+  margin-bottom: -5vh;
 }
 
 .path {
@@ -35,8 +36,6 @@ body {
   outline: inherit;
   outline-color: invert;
 }
-
-
 
 .choice {
   font-family: StarJedi;
@@ -134,4 +133,27 @@ h1 {
   position: absolute;
   top: 7.5vh;
   left: 47.5%;
+}
+
+.darklightsaber {
+  z-index: -1;
+  opacity: 0.9;
+  height: 55vh;
+  position: absolute;
+  top: 7.5vh;
+  left: 47.5%;
+}
+
+.choice a {
+  margin-top: -5vh;
+  text-decoration: none;
+  color: #E6AF4F;
+  background: none;
+}
+.login-prompt {
+  margin-top: -2.5vh;
+}
+
+.kerning {
+  letter-spacing: 5px;
 }
