@@ -20,8 +20,20 @@ var rand = myArray[Math.floor(Math.random() * myArray.length+1)];
 console.log(rand);
 $(".question"+rand).toggle();
 
-// $('.something').submit(function(e) {
-//   e.preventDefault();
-// })
 
+(function(){
+  var myNode = $(".lightsaber");
+  setTimeout(function(){
+    myNode.addClass('spinny');
+    myNode.show();
+  }, 1000);
+})();
+
+(function(){
+  var myNode = $(".darklightsaber");
+  setTimeout(function(){
+    myNode.addClass('spinny');
+    myNode.show();
+  }, 1000);
+})();
 });
