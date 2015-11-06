@@ -21,7 +21,6 @@ class UsersController < ApplicationController
   # POST /users.json
   def create
     user = User.create(user)
-    redirect_to '/questions/index'
   end
 
 
