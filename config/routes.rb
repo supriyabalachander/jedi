@@ -8,6 +8,7 @@ root 'welcomes#index'
 get '/sign_in' => 'users#new'
 get '/users/login' => 'users#login'
 get '/users/profile' => 'users#profile', as: :user_profile
+get '/users/leaderboard' => "users#leaderboard"
 
 
 get '/lights/new' => 'lights#new'
