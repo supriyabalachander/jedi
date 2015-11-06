@@ -5,28 +5,48 @@
     <title>Document</title>
 </head>
 <body>
+  <div class="quiz-awake">
+    <%= image_tag ("the_force_awakens.png"), class: 'logo2' %>
+  </div>
 
-<h2>How much does a <%= @answer['name'] %> cost?</h2>
-<h3>Credits:  The cost of this starship new, in galactic credits.</h3>
+  <div id="yoda">
+    <%= image_tag ("yoda.png"), class: 'yoda' %>
+  </div>
 
-<p>Answer 1: <%= @answer['cost_in_credits'] %></p>
-<p>Answer 2: <%= @answer2['cost_in_credits']%></p>
-<p>Answer 3: <%= @answer3['cost_in_credits']%></p>
+  <div id="darth">
+    <%= image_tag ("darth.png"), class: 'darth' %>
+  </div>
 
+  <div class="question1">
+    <h2>How much does a <%= @answer['name'] %> cost?</h2>
+    <h3>Credits:  The cost of this starship new, in galactic credits.</h3>
+      <form action="">
+        <input class="answers" type="radio" name="obi-wan" value="<%= @answer['cost_in_credits'] %>"><p class="answers">Answer 1: <%= @answer['cost_in_credits'] %></p></br>
+        <input class="answers" type="radio" name="obi-wan" value="<%= @answer2['cost_in_credits'] %>"><p class="answers">Answer 2: <%= @answer2['cost_in_credits']%></p></br>
+        <input class="answers" type="radio" name="obi-wan" value="<%= @answer3['cost_in_credits'] %>"><p class="answers">Answer 3: <%= @answer3['cost_in_credits']%></p></br>
+        <input type="submit" value="Submit">
+      </form>
+  </div>
 
-<h2>Who is the manufacturer of the <%= @answer['name'] %>?</h2>
+  <div class="question2">
+    <h2>Who is the manufacturer of the <%= @answer['name'] %>?</h2>
+      <form action="">
+        <input class="answers" type="radio" name="obi-wan" value="<%= @answer['manufacturer'] %>"><p class="answers">Answer 1: <%= @answer['manufacturer'] %></p></br>
+        <input class="answers" type="radio" name="obi-wan" value="<%= @answer2['manufacturer'] %>"><p class="answers">Answer 2: <%= @answer2['manufacturer']%></p></br>
+        <input class="answers" type="radio" name="obi-wan" value="<%= @answer3['manufacturer'] %>"><p class="answers">Answer 3: <%= @answer3['manufacturer']%></p></br>
+        <input type="submit" value="Submit">
+        </form>
+  </div>
 
-<p>Answer 1: <%= @answer['manufacturer'] %></p>
-<p>Answer 2: <%= @answer2['manufacturer']%></p>
-<p>Answer 3: <%= @answer3['manufacturer']%></p>
-
-<h2>How many megaliths can the <%= @answer['name'] %> travel in an hour?</h2>
-<h3>A "Megalight" is a standard unit of distance and has never been defined before within the Star Wars universe.</h3>
-
-<p>Answer 1: <%= @answer['MGLT'] %></p>
-<p>Answer 2: <%= @answer2['MGLT']%></p>
-<p>Answer 3: <%= @answer3['MGLT']%></p>
-
-    
+  <div class="question3">
+    <h2>How many megaliths can the <%= @answer['name'] %> travel in an hour?</h2>
+    <h3>A "Megalith" is a standard unit of distance and has never been defined before within the Star Wars universe.</h3>
+      <form action="">
+        <input class="answers" type="radio" name="obi-wan" value="<%= @answer['MGLT'] %>"><p class="answers">Answer 1: <%= @answer['MGLT'] %></p></br>
+        <input class="answers" type="radio" name="obi-wan" value="<%= @answer2['MGLT'] %>"><p class="answers">Answer 2: <%= @answer2['MGLT']%></p></br>
+        <input class="answers" type="radio" name="obi-wan" value="<%= @answer3['MGLT'] %>"><p class="answers">Answer 3: <%= @answer3['MGLT']%></p></br>
+        <input type="submit" value="Submit">
+      </form>
+  </div>
 </body>
 </html>
