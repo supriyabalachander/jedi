@@ -8,6 +8,9 @@ root 'users#index'
 
 get '/sign_in' => 'users#new'
 
-get '/questions' => 'questions#index'
+get '/questions/people' => 'questions#people'
+get '/questions/starships' => 'questions#starships'
+get '/questions/planets' => 'questions#planets'
+
 
 end
