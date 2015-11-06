@@ -1,6 +1,5 @@
 class QuestionsController < ApplicationController
 
-
   def people
 
     num1 = rand(1..87).to_s
@@ -49,5 +48,7 @@ class QuestionsController < ApplicationController
 
   end
 
+def show
+end
 
 end

@@ -13,3 +13,147 @@
  *= require_tree .
  *= require_self
  */
+
+body {
+  background-image: url(/assets/stars-carousel.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  color: #E6AF4F;
+}
+.quiz-awakens {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.logo {
+  height: 40vh;
+  margin-bottom: -5vh;
+}
+
+.path {
+  background: none;
+  border-radius: 50%;
+  outline: inherit;
+  outline-color: invert;
+}
+
+.choice {
+  font-family: StarJedi;
+  font-size: 3em;
+  color: #E6AF4F;
+  text-shadow: 5px 5px 5px black;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.alliance {
+  height: 25vh;
+}
+
+input[type="submit"]
+{
+  display: block;
+  width: 40vw;
+  margin: 5vh auto;
+  height: 40px;
+  padding: 0 30px 10px 30px;
+  color: #E6AF4F;
+  text-align: center;
+  font-family: StarJedi;
+  font-size: 16px;
+  line-height: 38px;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: transparent;
+  border-radius: 4px;
+  border: 1px solid #E6AF4F;
+  cursor: pointer;
+  box-sizing: border-box; }
+input[type="submit"]:hover,
+input[type="submit"]:focus{
+  color: #333;
+  border-color: #888;
+  outline: 0; }
+input[type="submit"].button-primary{
+  color: #FFF;
+  background-color: #33C3F0;
+  border-color: #33C3F0; }
+input[type="submit"].button-primary:hover,
+input[type="submit"].button-primary:focus {
+  color: #FFF;
+  background-color: #1EAEDB;
+  border-color: #1EAEDB; }
+input[type="text"]{
+  display: block;
+  width: 40vw;
+  margin: 5vh auto;
+  height: 40px;
+  padding: 6px 10px;
+  background-color: #fff;
+  border: 1px solid #D1D1D1;
+  border-radius: 4px;
+  box-shadow: none;
+  box-sizing: border-box; }
+input[type="text"],
+textarea {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none; }
+textarea {
+  min-height: 65px;
+  padding-top: 6px;
+  padding-bottom: 6px; }
+input[type="text"]:focus,
+textarea:focus{
+  border: 1px solid #33C3F0;
+  outline: 0; }
+
+#form-create-light {
+  display: block;
+  text-align: center;
+  margin-top: 20vh;
+  color: #E6AF4F;
+}
+
+#form-create-dark {
+  display: block;
+  text-align: center;
+  margin-top: 20vh;
+  color: rgb(113, 1, 15);
+}
+
+h1 {
+  font-family: Starjedi;
+}
+
+.lightsaber {
+  z-index: -1;
+  opacity: 0.9;
+  height: 55vh;
+  position: absolute;
+  top: 7.5vh;
+  left: 47.5%;
+}
+
+.darklightsaber {
+  z-index: -1;
+  opacity: 0.9;
+  height: 55vh;
+  position: absolute;
+  top: 7.5vh;
+  left: 47.5%;
+}
+
+.choice a {
+  margin-top: -5vh;
+  text-decoration: none;
+  color: #E6AF4F;
+  background: none;
+}
+.login-prompt {
+  margin-top: -2.5vh;
+}
+
+.kerning {
+  letter-spacing: 5px;
+}
