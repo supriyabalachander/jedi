@@ -13,6 +13,7 @@
  *= require_tree .
  *= require_self
  */
+@import "StarJedi";
 
 body {
   background-image: url(/assets/stars-carousel.jpg);

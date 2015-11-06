@@ -45,7 +45,6 @@ class QuestionsController < ApplicationController
     num3 = rand(1..61).to_s
     puts num3
     @answer = HTTParty.get('http://swapi.co/api/planets/' + num1)
-    puts @answer
     @answer2 = HTTParty.get('http://swapi.co/api/planets/' + num2)
     @answer3 = HTTParty.get('http://swapi.co/api/planets/' + num3)
 
