@@ -158,3 +158,58 @@ h1 {
 .kerning {
   letter-spacing: 5px;
 }
+.question-wrap {
+  margin-top: 20vh;
+
+}
+/*.questions {
+  font-family: Starjedi;
+  font-size: 18px;
+  margin-top: 30vh;
+  margin-left: 20vw;
+  text-align: center;
+  padding: 5vh;
+  width: 50vw;
+  border: 5px solid #E6AF4F;
+  border-radius: 12px;
+}*/
+
+.answers {
+  display: inline-block;
+}
+
+.yoda {
+  height: 45vh;
+  position: absolute;
+  z-index: 1;
+  top: 35vh;
+  left: 15vw;
+}
+
+.darth {
+  height: 90vh;
+  position: absolute;
+  z-index: 1;
+  top: -2.5vh;
+  left: 62.5vw;
+}
+
+
+.logo2 {
+  height: 15vh;
+  position: absolute;
+  top: 2.5vh;
+  left: 37.5vw;
+}
+.question1, .question2, .question3 {
+  display: none;
+  font-family: Starjedi;
+  font-size: 18px;
+  margin-top: 30vh;
+  margin-left: 20vw;
+  text-align: center;
+  padding: 5vh;
+  width: 50vw;
+  border: 5px solid #E6AF4F;
+  border-radius: 12px;
+}
