@@ -19,4 +19,9 @@ var myArray = [1,2,3];
 var rand = myArray[Math.floor(Math.random() * myArray.length+1)];
 console.log(rand);
 $(".question"+rand).toggle();
+
+// $('.something').submit(function(e) {
+//   e.preventDefault();
+// })
+
 });

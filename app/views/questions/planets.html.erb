@@ -18,34 +18,34 @@
   <%= image_tag ("darth.png"), class: 'darth' %>
 </div>
 
-<div class="question1">
+<div class="question1 answer-div">
   <h2>What is the climate of <%= @answer['name'] %>?</h2>
   <h3>Credits:  The cost of this starship new, in galactic credits.</h3>
     <form action="">
-      <input class="answers" type="radio" name="obi-wan" value="<%= @answer['climate'] %>"><p class="answers">Answer 1: <%= @answer['climate'] %></p></br>
+      <input class="answers first-answer" type="radio" name="obi-wan" value="<%= @answer['climate'] %>"><p class="answers">Answer 1: <%= @answer['climate'] %></p></br>
       <input class="answers" type="radio" name="obi-wan" value="<%= @answer2['climate']%>"><p class="answers">Answer 2: <%= @answer2['climate']%></p></br>
       <input class="answers" type="radio" name="obi-wan" value="<%= @answer3['climate']%>"><p class="answers">Answer 3: <%= @answer3['climate']%></p></br>
-      <input type="submit" value="Submit">
+      <a href="/questions/people"><input type="submit" value="Submit"></a>
     </form>
 </div>
 
-<div class="question2">
+<div class="question2 answer-div">
   <h2>What is the oribtal period of <%= @answer['name'] %>?</h2>
     <form action="">
-      <input class="answers" type="radio" name="obi-wan" value="<%= @answer['orbital_period'] %>"><p class="answers">Answer 1: <%= @answer['orbital_period'] %></p></br>
+      <input class="answers first-answer" type="radio" name="obi-wan" value="<%= @answer['orbital_period'] %>"><p class="answers">Answer 1: <%= @answer['orbital_period'] %></p></br>
       <input class="answers" type="radio" name="obi-wan" value="<%= @answer2['orbital_period'] %>"><p class="answers">Answer 2: <%= @answer2['orbital_period']%></p></br>
       <input class="answers" type="radio" name="obi-wan" value="<%= @answer3['orbital_period'] %>"><p class="answers">Answer 3: <%= @answer3['orbital_period']%></p></br>
-      <input type="submit" value="Submit">
+      <a href="/questions/planets"><input type="submit" value="Submit"></a>
     </form>
 </div>
 
-<div class="question3">
+<div class="question3 answer-div">
   <h2>What is the population of <%= @answer['name'] %>?</h2>
     <form action="">
-      <input class="answers" type="radio" name="obi-wan" value="<%= @answer['population'] %>"><p class="answers">Answer 1: <%= @answer['population'] %></p></br>
+      <input class="answers first-answer" type="radio" name="obi-wan" value="<%= @answer['population'] %>"><p class="answers">Answer 1: <%= @answer['population'] %></p></br>
       <input class="answers" type="radio" name="obi-wan" value="<%= @answer2['population'] %>"><p class="answers">Answer 2: <%= @answer2['population']%></p></br>
       <input class="answers" type="radio" name="obi-wan" value="<%= @answer3['population'] %>"><p class="answers">Answer 3: <%= @answer3['population']%></p></br>
-      <input type="submit" value="Submit">
+      <a href="/questions/starships"><input type="submit" value="Submit"></a>
     </form>
 </div>
 

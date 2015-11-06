@@ -19,35 +19,32 @@
 
   <div class="question1  answer-div">
     <h3>How tall is <%= @answer['name'] %>?</h3>
-    <form action="">
+    <form class="something" action="">
       <input class="answers first-answer" type="radio" name="obi-wan"value="<%= @answer['height'] %>"><p class="answers">Answer 1: <%= @answer['height'] %></p></br>
-
       <input class="answers" type="radio" name="obi-wan"value="<%= @answer2['height']%>"><p class="answers">Answer 2: <%= @answer2['height']%></p></br>
-
       <input class="answers" type="radio" name="obi-wan"value="<%= @answer3['height']%>"><p class="answers">Answer 3: <%= @answer3['height']%></p></br>
-
-      <input type="submit" value="Submit">
+      <a href="/questions/starships"><input type="submit" value="Submit"></a>
     </form>
   </div>
 
 <div class="question2 answer-div">
 <h3>What year was <%= @answer['name'] %> born?</h3>
 
-<form action="">
+<form class="something" action="">
   <input class="answers first-answer" type="radio" name="obi-wan"value="<%= @answer['birth_year']%>"><p class="answers">Answer 1: <%= @answer['birth_year'] %></p></br>
   <input class="answers" type="radio" name="obi-wan"value="<%= @answer2['birth_year']%>"><p class="answers">Answer 2: <%= @answer2['birth_year']%></p></br>
   <input class="answers" type="radio" name="obi-wan"value="<%= @answer3['birth_year']%>"><p class="answers">Answer 3: <%= @answer3['birth_year']%></p></br>
-  <input type="submit" value="Submit">
+  <a href="/questions/planets"><input type="submit" value="Submit"></a>
 </form>
 </div>
 
 <div class="question3 answer-div">
 <h3>What does <%= @answer['name'] %> weigh?</h3>
-<form action="">
+<form class='something' action="">
   <input class="answers first-answer" type="radio" name="obi-wan"value="<%= @answer['mass']%>><p class="answers">Answer 1: <%= @answer['mass'] %>"</p></br>
   <input class="answers" type="radio" name="obi-wan"value="<%= @answer2['mass']%>"><p class="answers">Answer 2: <%= @answer2['mass']%></p></br>
   <input class="answers" type="radio" name="obi-wan"value="<%= @answer3['mass']%>"><p class="answers">Answer 3: <%= @answer3['mass']%></p></br>
-<input type="submit" value="Submit">
+  <a href="/questions/people"><input type="submit" value="Submit">
 </form>
 </div>
 
