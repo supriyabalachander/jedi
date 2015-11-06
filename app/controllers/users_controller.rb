@@ -15,7 +15,6 @@ class UsersController < ApplicationController
 
   def create
     user = User.create(user)
-    redirect_to '/questions/people'
   end
 
 
