@@ -1,0 +1,11 @@
+<form id="form-create-light" action="/sessions" method="post">
+  <%= token_tag %>
+  <h1 class="form-create-heading">What's your name?</h1>
+  <input type="text" name="user[username]" placeholder="Username" required autofocus>
+  <input type="submit" value="Sign In">
+  <p>Already a player?</p>
+</form>
+
+<div class="lightsaber">
+  <%= image_tag ("lightsaber.png"), class: 'lightsaber' %>
+</div>

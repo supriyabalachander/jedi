@@ -1,8 +1,8 @@
 class QuestionsController < ApplicationController
 
-  def people 
-    
     # takes random number from range indicated on API documentation and concatenates to end of api call below
+  def people
+
     num1 = rand(1..87).to_s
     num2 = rand(1..87).to_s
     puts num2
@@ -15,8 +15,8 @@ class QuestionsController < ApplicationController
 
   end
 
-  def starships 
-    
+  def starships
+
     num1 = rand(1..37).to_s
     num2 = rand(1..37).to_s
     puts num2
@@ -29,8 +29,8 @@ class QuestionsController < ApplicationController
 
   end
 
-    def planets 
-    
+    def planets
+
     num1 = rand(1..61).to_s
     num2 = rand(1..61).to_s
     puts num2
@@ -57,7 +57,7 @@ class QuestionsController < ApplicationController
 
   end
 
-
+def show
 end
 
-
+end
